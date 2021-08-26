@@ -1,0 +1,222 @@
+body{
+    margin:0px auto;
+    width: 100%;
+
+}
+nav ul li {
+    list-style-type:none;
+    float: left;
+    padding-right: 2.5em;
+    color:black;
+    font-family: 'Abril Fatface', cursive;
+}
+nav ul{
+    float: right;
+}
+nav{
+    width: 90% auto;
+    height: 55px;
+    background-color:#ECECEC;
+}
+section{
+    background-color: #4cbbb9;
+}
+.animate{
+    min-width: 500px;
+    min-height: 250px;
+    animation: animate 10s infinite;
+    font-size:60px;
+    font-family: 'Abril Fatface', cursive;
+    color:black;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+  }
+  @keyframes animate{
+    0%{
+      background-color: #e8505b;
+    }
+    25%{
+      background-color: #f9d56e;
+    }
+    50%{
+      background-color: #f3ecc2;
+    }
+    100%{
+      background-color: #14b1ab;
+    }
+  }
+
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.animate .inner img{
+    border-radius: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.about{
+
+    background-image: url('hi.png');
+    display: table;
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    float: left;
+    padding-top: 75px;
+    padding-left: 50px;
+
+}
+.about .inner h1{
+    font-size: 55px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    padding-top: 50px;
+
+}
+.about .inner p{
+    font-size: 28px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+
+}
+
+.education{
+    background-color: #c06c84;
+    display:table;
+    height:100vh;
+    width:100%;
+}
+.education .inner{
+    padding:50px;
+}
+.education h1, .hobbies h1, .skills h1, .contact h1{
+    font-size:55px;
+    font-family: 'Abril Fatface', cursive;
+    padding-left: 50px;
+}
+.education .inner div{
+    width:80%;
+    margin-left:5px;
+    margin-right:5px;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+}
+.skills .inner div,  .hobbies .inner div{
+    width:30%;
+    margin-left:5px;
+    margin-right:5px;
+    float: left;
+    text-align: center;
+}
+
+.education .inner div h2{
+    padding-left: 50px;
+    font-family: 'Abril Fatface', cursive;
+}
+.education .inner div p, .hobbies .inner div p{
+    font-size:26px;
+    padding-left: 50px;
+    font-family: 'Abril Fatface', cursive;
+}
+.contact .inner p{
+    font-size:34px;
+    padding-left: 50px;
+    font-family: 'Abril Fatface', cursive;
+}
+.skills .inner div ul li{
+    font-size:26px;
+    padding-left: 50px;
+    padding-right: 300px;
+    font-family: 'Abril Fatface', cursive;
+}
+.education .inner div img, .hobbies .inner div img{
+    width:350px;
+    height:auto;
+    padding-top: 100px;
+
+}
+
+.hobbies, .skills, .contact{
+    display:table;
+    height:100vh;
+    width:100%;
+}
+.hobbies .inner{
+    padding:50px;
+}
+.skills{
+    background-image:url("first.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    background-image:url("contact_logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.skills .inner{
+
+    padding: 50px;
+    color:#fff;
+}
+.skills .inner div ul li {
+   list-style-type: none;
+}
+.skills .inner div ul li{
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 45px;
+}
+.hobbies{
+
+    background-color: goldenrod;
+}
+.contact .inner{
+    text-align: right;
+    padding-top: 400px;
+    padding-right: 50px;
+
+}
+@media (min-width:320px) and (max-width:767px){
+    .home .inner img{
+        padding-top: 100px;
+    }
+    #about{
+        background:burlywood!important;
+    }
+    .about .inner{
+        width: 95%
+        padding: 25px;
+    }
+    .about .inner p{
+        font-size: 18px;
+        text-align: justify;
+    }
+    .education .inner div, .hobbies .inner div, .skills .inner div {
+        width:100%;
+    }
+    .hobbies .inner div{
+        border-bottom: 2px solid #d3d3d3;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+
+}
+@media (min-width:1024px)and (max-width:1439px){
+
+}
